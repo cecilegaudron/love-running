@@ -229,3 +229,20 @@ footer {
     margin: 1%;
     padding: 5%;
 }
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/* Media queries */
+/* for larger to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+}
