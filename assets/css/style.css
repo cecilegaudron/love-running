@@ -232,13 +232,13 @@ footer {
 
 #photos {
     clear: both;
-    line-height: 0;
+/*  line-height: 0; */
     column-count: 4;
     column-gap: 0;
 }
 
 #photos > img {
-    width: 100%;
+    width: 99%;
 }
 
 /* Media queries */
@@ -270,6 +270,9 @@ footer {
         clear: both;
         height: 150px;
         padding: 0;
+    }
+    #photos {
+        column-count: 3;
     }
     hr {
         display: none;
@@ -304,5 +307,8 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+    #photos {
+        column-count: 2;
     }
 }
